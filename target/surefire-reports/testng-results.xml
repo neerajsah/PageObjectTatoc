@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testing.PageObjectTatocTestNGTest" duration-ms="11327" started-at="2018-07-02T20:18:48Z" finished-at="2018-07-02T20:18:59Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11327" started-at="2018-07-02T20:18:48Z" finished-at="2018-07-02T20:18:59Z">
+      <class name="testing.PageObjectTatocTestNGTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="launchBrowser" is-config="true" duration-ms="6913" started-at="2018-07-03T01:48:48Z" finished-at="2018-07-03T01:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="callBasic()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callBasic" duration-ms="674" started-at="2018-07-03T01:48:55Z" finished-at="2018-07-03T01:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callBasic -->
+        <test-method status="PASS" signature="callGrid()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callGrid" duration-ms="460" started-at="2018-07-03T01:48:55Z" depends-on-methods="testing.PageObjectTatocTestNGTest.callBasic" finished-at="2018-07-03T01:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGrid -->
+        <test-method status="PASS" signature="callFrame()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callFrame" duration-ms="668" started-at="2018-07-03T01:48:56Z" depends-on-methods="testing.PageObjectTatocTestNGTest.callGrid" finished-at="2018-07-03T01:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callFrame -->
+        <test-method status="PASS" signature="callDrag()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callDrag" duration-ms="304" started-at="2018-07-03T01:48:56Z" depends-on-methods="testing.PageObjectTatocTestNGTest.callFrame" finished-at="2018-07-03T01:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callDrag -->
+        <test-method status="PASS" signature="callPop()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callPop" duration-ms="1451" started-at="2018-07-03T01:48:57Z" depends-on-methods="testing.PageObjectTatocTestNGTest.callDrag" finished-at="2018-07-03T01:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callPop -->
+        <test-method status="PASS" signature="callCookie()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="callCookie" duration-ms="216" started-at="2018-07-03T01:48:58Z" depends-on-methods="testing.PageObjectTatocTestNGTest.callPop" finished-at="2018-07-03T01:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCookie -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testing.PageObjectTatocTestNGTest@7f63425a]" name="closeBrowser" is-config="true" duration-ms="629" started-at="2018-07-03T01:48:58Z" finished-at="2018-07-03T01:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testing.PageObjectTatocTestNGTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testing.PageObjectTatocTestNGTest -->
+</testng-results>
